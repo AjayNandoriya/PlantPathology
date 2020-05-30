@@ -147,7 +147,6 @@ def main():
     # Metrix
     calculate_accruracy(outputs, predictions)
 
-
 if __name__ == "__main__":
     # download_dataset()
     main()
