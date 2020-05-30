@@ -1,0 +1,6 @@
+wget==3.2
+tensorflow_gpu==1.15.0
+numpy==1.18.4
+Pillow==7.1.2
+scikit_learn==0.23.1
+tensorflow==2.2.0
