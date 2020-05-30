@@ -10,10 +10,10 @@ import zipfile
 # Disable scientific notation for clarity
 np.set_printoptions(suppress=True)
 
+
 def download_dataset():
     zip_file_url = r"http://download2266.mediafire.com/kf0wsokjbbzg/phtv0nr53jy8dkk/plant-pathology-2020-fgvc7.zip"
     filename = wget.download(zip_file_url)
-
 
 
 def predict_one(model, image_id):
